@@ -29,7 +29,11 @@ const Navbar = () => {
             <Link to="/gallery" className="text-gray-700 hover:text-purple-600 font-semibold transition-colors">Gallery</Link>
             <Link to="/contact" className="text-gray-700 hover:text-purple-600 font-semibold transition-colors">Contact</Link>
             
-            <Link to="/admin" className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2.5 rounded-full font-bold hover:shadow-lg hover:shadow-purple-500/30 transform hover:-translate-y-0.5 transition-all">
+            {/* Added Sign Up Link */}
+            <Link to="/signup" className="text-gray-700 hover:text-purple-600 font-semibold transition-colors">Sign Up</Link>
+            
+            {/* Updated path to /login */}
+            <Link to="/login" className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2.5 rounded-full font-bold hover:shadow-lg hover:shadow-purple-500/30 transform hover:-translate-y-0.5 transition-all">
               Admin Login
             </Link>
           </div>
@@ -54,7 +58,12 @@ const Navbar = () => {
             <Link to="/services" className="block px-4 py-3 text-gray-800 hover:bg-purple-50 hover:text-purple-600 rounded-xl font-semibold transition-colors">Services</Link>
             <Link to="/gallery" className="block px-4 py-3 text-gray-800 hover:bg-purple-50 hover:text-purple-600 rounded-xl font-semibold transition-colors">Gallery</Link>
             <Link to="/contact" className="block px-4 py-3 text-gray-800 hover:bg-purple-50 hover:text-purple-600 rounded-xl font-semibold transition-colors">Contact</Link>
-            <Link to="/admin" className="block px-4 py-3 mt-4 text-center bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-xl font-bold shadow-md">
+            
+            {/* Added Mobile Sign Up Link */}
+            <Link to="/signup" className="block px-4 py-3 text-gray-800 hover:bg-purple-50 hover:text-purple-600 rounded-xl font-semibold transition-colors">Sign Up</Link>
+            
+            {/* Updated Mobile path to /login */}
+            <Link to="/login" className="block px-4 py-3 mt-4 text-center bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-xl font-bold shadow-md">
               Admin Login
             </Link>
           </div>
